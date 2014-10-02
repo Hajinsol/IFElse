@@ -27,4 +27,8 @@ for (var i = 1; i < 10; i = i + 1)
    ellipse(trailX[i], trailY[i], 80, 80); 
 }
 
+if (mouseX < 300) {
+  ellipse(200, 200, 100, 100);
+}
+
 }
