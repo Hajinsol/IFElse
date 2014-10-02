@@ -5,13 +5,13 @@ var trailY = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 function setup() {
   createCanvas(800, 600);
   noFill();
-  stroke(255, 0, 0);
+  stroke(255, 100, 124);
 }
-  
 
   function draw()
   {
-    background(0)
+  background(0,100,124)
+
     //ellipse(mouseX, mouseY, 50, 50);
     ellipse(mouseX, mouseY, 100, 100);
   
